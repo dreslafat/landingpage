@@ -11,7 +11,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,500;0,700;1,300;1,500;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="./style/style.css">
     <title>Landing Page</title>
 </head>
 
@@ -19,12 +19,12 @@
     <header>
         <img src="/multimedia/landingPageLogo.png" alt="logo landing page">
         <div class="menuPC">
-            <li>
-                <ul><a href="#productos">Productos</a></ul>
-                <ul><a href="#servicios">Servicios</a></ul>
-                <ul><a href="#faq">Informacion</a></ul>
-                <ul><a href="#contacto">Contacto</a></ul>
-            </li>
+            <ul>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#faq">Informacion</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
         </div>
         <div class="dropdown menuCel">
             <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -40,16 +40,20 @@
         </div>
     </header>
     <main>
-        <div class="actionBox" id="actionBox">
-            <h1>
-                Nuestra Empresa
-            </h1>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio dolorum culpa reprehenderit, molestiae hic
-                magnam aliquid. Amet voluptatem tempora ullam, assumenda nisi voluptatibus voluptate blanditiis nihil
-                molestiae nemo ex exercitationem atque reiciendis consequuntur officiis aspernatur laboriosam modi, a
-                quis. Sed laborum accusantium fuga qui, voluptatum iure nihil dolorem rerum possimus.
-            </p>
+        <div class="actionBox row" id="actionBox">
+            <div class="actionTexto col-6">
+                <h1>
+                    Nuestra Empresa
+                </h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio dolorum culpa reprehenderit, molestiae hic
+                    magnam aliquid. Amet voluptatem tempora ullam, assumenda nisi voluptatibus voluptate blanditiis nihil
+                    molestiae nemo ex exercitationem atque reiciendis consequuntur officiis aspernatur laboriosam modi, a
+                    quis. Sed laborum accusantium fuga qui, voluptatum iure nihil dolorem rerum possimus.
+                </p>
+                <form action="#"><button class="A">whatsapp</button></form>
+            </div>
+            <img src="./multimedia/actitud.jpg" class="col-6" alt="imagen">
         </div>
         <div class="productos" id="productos">
             <div class="cajaProducto">
